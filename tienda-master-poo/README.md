@@ -36,4 +36,4 @@ Realizado para aclarar y practicar la POO y MVC, como adicional agregue las cons
 
 ## Algunas imagenes:
 
-![Home](masterphp\tienda-master-poo\assets\img\Home.jpg)
+![Home](https://raw.githubusercontent.com/jo4co/MasterPhp/main/tienda-master-poo/assets/img/Home.jpg)
