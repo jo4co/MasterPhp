@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <title>Tienda de Camisetas</title>
     <link rel="stylesheet" href="<?= base_url ?>assets\css\styles.css" />
-    <link rel="stylesheet" href="<?= base_url ?>assets\css\fontawesome-free-6.3.0\css\all.min.css" />
 </head>
 
 <body>

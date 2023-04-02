@@ -1,7 +1,7 @@
 <h1>Carrito de la compra</h1>
 
 <?php if (isset($_SESSION['carrito']) && count($_SESSION['carrito']) >= 1) : ?>
-    <table class="">
+    <table class="tabla-carrito">
         <tr>
             <th>Imagen</th>
             <th>Nombre</th>
@@ -28,14 +28,14 @@
                     <?= $producto->precio; ?>
                 </td>
                 <td>
-                    <?= $elemento['unidades']; ?>
                     <div class="updown-unidades">
-                        <a href=" <?= base_url ?>carrito/up/<?= $indice ?>" class="button "><i class="fa fa-plus"></i></a>
-                        <a href=" <?= base_url ?>carrito/down/<?= $indice ?>" class="button button-minus "><i class="fa fa-minus"></i></a>
+                        <a href=" <?= base_url ?>carrito/up/<?= $indice ?>" class="button">+</a>
+                        <?= $elemento['unidades']; ?>
+                        <a href=" <?= base_url ?>carrito/down/<?= $indice ?>" class="button button-minus ">-</a>
                     </div>
                 </td>
                 <td>
-                    <a href=" <?= base_url ?>carrito/delete/<?= $indice ?>" class="button button-tabla-pedidos button-red "><i class="fa fa-trash"></i></a>
+                    <a href=" <?= base_url ?>carrito/delete/<?= $indice ?>" class="button button-tabla-pedidos button-red ">Borrar </a>
                 </td>
             </tr>
         <?php endforeach; ?>

@@ -37,6 +37,6 @@
         <?php endif; ?>
         <input type="file" name="imagen" />
         <input type="submit" value="Guardar" />
-        <!-- quede en las imagenes pero no tengo ninguna cargada --->
+
     </form>
 </div>
