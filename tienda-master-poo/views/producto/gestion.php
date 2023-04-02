@@ -33,7 +33,7 @@
             <td><?= $pro->precio; ?></td>
             <td><?= $pro->stock; ?></td>
             <td>
-                <a href="<?= base_url ?>producto/editar/<?= $pro->id ?>" class="button button-gestion">Editar</a> <!-- Quede aqui. no manda el id -->
+                <a href="<?= base_url ?>producto/editar/<?= $pro->id ?>" class="button button-gestion">Editar</a>
                 <a href="<?= base_url ?>producto/eliminar/<?= $pro->id ?>" class="button button-gestion button-red">Eliminar</a>
             </td>
         </tr>
